@@ -1,0 +1,35 @@
+{
+  "numeric_cols": [
+    "thickness",
+    "base_width",
+    "relief_mm",
+    "material_modulus",
+    "offset_mm",
+    "undercut_depth"
+  ],
+  "categorical_cols": [
+    "arch_form"
+  ],
+  "cats_values": {
+    "arch_form": [
+      "broad",
+      "medium",
+      "narrow"
+    ]
+  },
+  "label_cols": [
+    "y_fit_issue",
+    "y_success"
+  ],
+  "feature_names": [
+    "thickness",
+    "base_width",
+    "relief_mm",
+    "material_modulus",
+    "offset_mm",
+    "undercut_depth",
+    "arch_form=broad",
+    "arch_form=medium",
+    "arch_form=narrow"
+  ]
+}
